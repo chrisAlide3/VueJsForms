@@ -1,9 +1,17 @@
 <template>
-  <h1>Vue is working!</h1>  
+  <div class="container">
+    <app-complaint-form></app-complaint-form>
+  </div>
 </template>
 
 <script>
+import ComplaintForm from "./components/ComplaintForm";
+
 export default {
+  components: {
+    "appComplaintForm": ComplaintForm,
+  }
+
   
 }
 </script>
